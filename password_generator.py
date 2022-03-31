@@ -12,13 +12,13 @@ chr() ---> build-in function, convert ASCII to str
 
 import random
 
-uppers = [chr(random.randint(65, 90)) for i in range(3)]  # will have random str between A-Z in a list
+uppers = [chr(random.randint(65, 90)) for i in range(3)]  # will have random strs between A-Z in a list
 
-lowers = [chr(random.randint(97, 122)) for i in range(3)]  # will have random str between a-z in a list
+lowers = [chr(random.randint(97, 122)) for i in range(3)]  # will have random strs between a-z in a list
 
-numbers = [chr(random.randint(48, 57)) for i in range(3)]  # will have random str between 0-9 in a list
+numbers = [chr(random.randint(48, 57)) for i in range(3)]  # will have random strs between 0-9 in a list
 
-chars = chr(random.randint(33, 47)) + chr(random.randint(58, 64))  # will have random str special characters in a str
+chars = chr(random.randint(33, 47)) + chr(random.randint(58, 64))  # will have random strs special characters in a str
 
 passw = uppers + lowers + numbers + list(chars)
 
