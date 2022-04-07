@@ -1,5 +1,5 @@
 """
-how can be reached the target number  by adding which two elements of the list of integers
+how can the target number be reached by adding which two elements of the list of integers
 
 ex.)
 sayılar = [3, 2, 7]
